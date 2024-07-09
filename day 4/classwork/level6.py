@@ -2,9 +2,13 @@ print ( 5 + 4)
 print (12 / 4) # делиться на цело
 print (12 // 4) # показывает сколько раз 4 входит в 12 
 age = 1 + 4
-print (age)
+print (age) # сума 4 и 1
 
 age1 = 5
 age2 = 6
 totaleage = age1 + age2
-print (totaleage)
+print (totaleage) # будет сума 5 и 6
+
+age = 14
+age = 99
+print (age) # будет число 99. Потому что число последнее
