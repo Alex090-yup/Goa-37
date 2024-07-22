@@ -1,6 +1,7 @@
 number1 = input()
 number2 = input()
-print(32+32)
-print(32-32)
-print(32*32)
-print(32//32)
+
+print(int(number1) + int(number1))
+print(int(number1) * int(number1))
+print(int(number1) - int(number1))
+print(int(number1) // int(number1))
