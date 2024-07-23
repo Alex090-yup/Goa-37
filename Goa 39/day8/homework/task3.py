@@ -1,0 +1,6 @@
+number1=int(input('Write a number: '))
+number2=int(input('Write a number: '))
+print(number1/number2)
+print(number1*number2)
+print(number1+number2)
+print(number1-number2)
