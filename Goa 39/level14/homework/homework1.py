@@ -1,7 +1,7 @@
-for i in range(10):
+for i in range(11):
     print(i)
 
-for i in range(20):
+for i in range(21):
     print(i)
 
 for i in range(10):
