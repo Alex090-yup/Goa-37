@@ -1,2 +1,2 @@
 strings=['David', 'Den', 'Alex', 'Ann']
-print()
+print(strings[1])
