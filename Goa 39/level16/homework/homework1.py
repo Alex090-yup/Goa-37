@@ -4,7 +4,7 @@ while i<120:
     i= i+9
 
 i=100
-while i>50:
+while 100>50:
     print('Hello!')
     i=i-2
 
