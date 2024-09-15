@@ -1,4 +1,4 @@
 i=1
-while i!=50:
+while i<50:
     i=i+1
-print(sum(i))
+print(i)
