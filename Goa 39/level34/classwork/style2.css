@@ -1,0 +1,34 @@
+div{
+    background-color: black;
+    width: 500;
+}
+
+#a{
+  background-color: chartreuse;
+  width: 50%;
+  height: 50%;
+}
+
+#b{
+    background-color: crimson;
+    width: 40%;
+    height: 40%;
+}
+
+#c{
+    background-color: blueviolet;
+    width: 30%;
+    height: 30%;
+}
+
+#d{
+   background-color: aqua;
+   width: 20%;
+   height: 20%;
+}
+
+n{
+  background-color: darkmagenta;
+  width: 10%;
+  height: 10%;
+}
