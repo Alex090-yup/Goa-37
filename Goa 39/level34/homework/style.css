@@ -1,0 +1,76 @@
+body{
+    background-color: azure;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    text-shadow: 15px, 13px,14px aquamarine;
+}
+
+#cameras{
+    color: cornflowerblue;
+    text-align: center;
+    text-decoration: dashed;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+p{
+    color: bisque;
+    background-color: rgb(0, 162, 255);
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+}
+
+#Product{
+    text-align: center;
+    color: blue;
+}
+
+.Product{
+    color: cornflowerblue;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#o{
+    color: cornflowerblue;
+    font-family: "Josefin Sans", sans-serif;
+}
+img{
+    border: double 2px rgb(21, 79, 160);
+}
+
+h2{
+    color: deepskyblue;
+    font-family: "Josefin Sans", sans-serif;
+    text-shadow: 15px,14px,18px, rgb(7, 65, 130);
+}
+
+ul{
+    color: cornflowerblue;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.i{
+    color: rgb(8, 27, 47);
+    font-family: "Josefin Sans", sans-serif;
+}
+
+input{
+    font-size: x-large;
+    border: solid 2px black;
+    background-color: lightblue;
+}
+
+#u{
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.q{
+    color: mediumturquoise;
+    text-decoration: line-through;
+}
+.y{
+    color: mediumturquoise;
+}
