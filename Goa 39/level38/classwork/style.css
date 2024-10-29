@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+#table{
+    border-collapse: collapse;
+}
+
+td{
+    border: solid grey;
+    font-family: "Arima", serif;
+}
+
+th{
+    border: solid grey;
+    font-family: "Arima", serif;
+}
