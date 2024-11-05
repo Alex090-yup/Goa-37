@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Itim&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+
+.h1{
+    color: lightskyblue;
+    font-family: "Oswald", serif;
+    text-align: center;
+}
+
+a:hover{
+    color: cadetblue;
+}
+
+a{
+    color: rgb(231, 21, 21);
+    text-decoration: none;
+}
+
+.img{
+    width: 300px;
+}
+
+.p{
+    text-align: center;
+    color: rgb(44, 92, 236);
+}
+ul{
+    color: blue;
+    list-style-type:upper-roman;
+    list-style-position: inside;
+    list-style-image: url('images/features.png');
+}
+
+.button{
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    font-size: x-large;
+}
+
+#a1{
+    color: crimson;
+}
+
+body{
+    background-color: azure;
+}
+
+#p2{
+    text-align: center;
+    color: cornflowerblue;
+}
+
