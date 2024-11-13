@@ -1,0 +1,36 @@
+input[type="text"]{
+    background-color: rgb(164, 158, 158);
+    border: 3px solid rgba(255, 208, 0, 0.85);
+    border-radius: 10px, 15px, 20px, 25px;
+}
+
+input[type="email"]{
+    color:coral;
+    border: 3px solid rgba(255, 208, 0, 0.85);
+    background-color: aliceblue;
+    border-radius: 10px, 15px, 20px, 25px;
+
+}
+
+input[type="password"]{
+    color:rgb(255, 80, 80);
+    border: 3px solid rgba(255, 208, 0, 0.85);
+    background-color: rgb(11, 129, 232);
+    border-radius: 10px, 15px, 20px, 25px;
+}
+
+
+label{
+    color: chocolate;
+}
+
+label:hover{
+    color: rgb(0, 255, 98);
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background: red;
+    border-radius: 10px;
+}
