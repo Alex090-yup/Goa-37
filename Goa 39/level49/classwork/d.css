@@ -1,0 +1,10 @@
+div{
+    background: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+}
+
+img{
+    border: 10px black solid;
+}
