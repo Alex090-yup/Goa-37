@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Delius&family=Itim&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&display=swap');
+.img{
+    width: auto;
+    height: auto;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    color: #a7c957;
+}
+
+body{
+    background-color: #f2e8cf;
+}
+p{
+    font-family: "Delius", cursive;
+    color: #6a994e;
+    text-align: center;
+
+}
+    p:hover{
+        box-shadow: 0 5px 15px black;
+        background-color: azure;
+        
+    }
+div{
+    width: auto;
+    height: auto;
+    border: 3px solid #386641;
+    border-radius: 10px;
+    
+}
+    .button{
+        background: #6a994e;
+        border: none;
+        color: white;
+        padding: 15px 30px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 30px;
+        cursor: pointer;
+        box-shadow: 0 5px 15px black;
+        margin-left: 500px;
+    }
+    
+      button:hover {
+        transform: scale(1.1);
+        background: #386641;
+        box-shadow: 0 8px 20px black;
+      }
+    
+      button:active {
+        transform: scale(0.95);
+        box-shadow: 0 3px 10px black;
+      }
+h2{
+    color: #3a5a40;
+}
+#div{
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+}
+input{
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 500px;
+}
