@@ -1,0 +1,8 @@
+.p{
+    color: cornflowerblue;
+    text-decoration: wavy;
+}
+
+div{
+    flex-grow: 4;
+}

@@ -1,0 +1,14 @@
+.blocklevel{
+    color: crimson;
+    text-align: justify;
+    text-wrap: wrap;
+    display: inline;
+}
+
+.inline{
+    color: coral;
+    background-color: honeydew;
+    border: solid 3px black;
+    text-decoration: none;
+    display: block;
+}

@@ -1,0 +1,9 @@
+.p{
+    color: rgb(7, 243, 101);
+    text-decoration: wavy;
+    text-shadow: 0px 5px 10px black;
+}
+
+div{
+    flex-wrap: wrap;
+}

@@ -1,0 +1,10 @@
+.cubs{
+    background: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+div{
+    display: flex;
+    flex-direction: column-reverse;
+}
