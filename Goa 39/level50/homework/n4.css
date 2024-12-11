@@ -1,0 +1,8 @@
+.p{
+    color:peru;
+    text-decoration:line-through;
+}
+
+div{
+    flex-grow: 4;
+}

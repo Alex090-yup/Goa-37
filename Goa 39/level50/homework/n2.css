@@ -1,0 +1,8 @@
+.p{
+    color: cornflowerblue;
+    text-decoration: double;
+}
+
+div{
+    flex-wrap: wrap;
+}
