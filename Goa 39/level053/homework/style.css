@@ -1,0 +1,42 @@
+div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row
+}
+
+img{
+    box-shadow: 5px 5px 40px 5px #e4c1f9;
+    border-radius: 20px;
+    transform: scale(0.8);
+    margin-top: 80px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: 3s;
+}
+
+p{
+    font-size: large;
+    color: #a9def9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+p:hover{
+    color: #e4c1f9;
+    transition: 2s;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #83ecac;
+    text-align: center;
+}
+
+body{
+    background-color: #fcf6bd;
+}
+
