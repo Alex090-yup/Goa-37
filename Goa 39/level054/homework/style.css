@@ -1,9 +1,10 @@
 div{
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     width: 325px;
     height: 700px;
-    background: #3f4143;
+    background: #1f2226;
     box-shadow: 5px 5px 40px 10px none;
     border-radius: 30px;
 }
@@ -30,12 +31,12 @@ h1{
 
 p{
     text-align: center;
-    color: #919598;
+    color: #7d878f;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .button{
-    background-color: #595c5f;
+    background-color: #313438;
     color: #ffffff;
     width: 300px;
     height: 50px;
