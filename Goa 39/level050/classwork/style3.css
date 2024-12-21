@@ -1,0 +1,13 @@
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aquamarine;
+    text-align: center;
+    display: flex;
+    flex-shrink: 2;
+    margin-top: 10px;
+}
+
+p:hover{
+    transition: 3s;
+    color: cornflowerblue;
+}

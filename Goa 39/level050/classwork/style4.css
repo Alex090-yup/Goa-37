@@ -1,0 +1,8 @@
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aquamarine;
+    text-align: center;
+    display: flex;
+    flex-grow: 5;
+    margin-top: 10px;
+}
