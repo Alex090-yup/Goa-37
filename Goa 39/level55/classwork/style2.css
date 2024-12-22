@@ -1,0 +1,11 @@
+p{
+    text-align:right;
+}
+
+.img{
+    border-radius: 40px;
+    position: fixed;
+    left: 1000px;
+    top: 650px;
+}
+
