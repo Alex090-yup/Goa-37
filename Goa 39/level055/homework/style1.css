@@ -1,0 +1,12 @@
+button{
+    position: fixed;
+    left: 50px;
+    top: 25px;
+    border-radius: 25px;
+    height: 20px;
+    width: 100px;
+    border: none;
+    background-color: cadetblue;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
