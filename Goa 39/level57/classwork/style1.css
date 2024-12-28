@@ -1,0 +1,20 @@
+div{
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 5px 5px 20px 10px #adb5bd;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-image: url('image/image1.jpg');
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+div:hover{
+    box-shadow: 10px 10px 40px 20px #adb5bd;
+    transform: scale(1.05);
+}
