@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Delius&family=Itim&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    background: #001d3d;
+}
+
+.div{
+    width: 370px;
+    height: 625px;
+    box-shadow: 5px 5px 40px 10px black;
+    border-radius: 20px;
+    background: #052846;
+    position: absolute;
+    left: 39%;
+    top: 15%;
+}
+
+#img1{
+    width: 350px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+h2{
+    font-family: "Arima", serif;
+    color: white;
+    margin-left: 10px;
+}
+
+.p1{
+    margin-left: 10px;
+    font-family: "Arima", serif;
+    color: rgb(104, 148, 230);
+}
+
+#img2{
+    width: 11px;
+    margin-left: 10px;
+}
+p{
+    display: inline;
+    margin-left: 2px;
+    color: rgb(0, 255, 179);
+    font-family: "Arima", serif;
+}
+
+#img3{
+    margin-left: 20px;
+    width: 30px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+
+#p3{
+    display: inline;
+    color: white;
+    font-family: "Arima", serif;;
+}
+
