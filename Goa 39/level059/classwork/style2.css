@@ -1,0 +1,12 @@
+div{
+    width: 150px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 400px;
+    background: darkviolet;
+}
+
+div:active{
+    transform: translate(50px) rotate(25deg) scale(4);
+    transition: 1s;
+}

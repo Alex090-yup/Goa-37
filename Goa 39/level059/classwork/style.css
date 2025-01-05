@@ -1,0 +1,48 @@
+#div1{
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 150px;
+    height: 200px;
+    background: chartreuse;
+}
+
+#div1:active{
+    transform: translate(50px);
+}
+
+#div2{
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 150px;
+    height: 200px;
+    background: coral;
+}
+
+#div2:active{
+    transform: scale(1.5);
+}
+
+#div3{
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 150px;
+    height: 200px;
+    background: cadetblue;
+}
+
+#div3:active{
+    transform: translate(-100px,100px);
+}
+
+#div4{
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 150px;
+    height: 200px;
+    background: cornflowerblue;
+}
+
+#div4:active{
+    transform: rotate(-360deg);
+    transition: 1s;
+}
