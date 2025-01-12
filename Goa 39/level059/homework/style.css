@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Delius&family=Itim&family=Jost:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 #div1{
     width: 730px;
@@ -20,21 +20,38 @@ h1{
 }
 
 p{
+    color: #8a7968;
+    font-family: "Arima", serif;
     margin-left: 40px;
 }
 
+
+
 #div2{
-    background: #f3c4fb;
+    background: #ffd6ff;
     width: 650px;
-    height: 150px;
+    height: 135px;
     margin-left: 40px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 h3{
+    color: #7b2cbf;
     margin-left: 20px;
 }
+
 #div3{
     margin-left: 40px;
 }
+
+h2{
+    color: #ff7b00;
+}
+
+.ul{
+    font-family: "Arima", serif;
+    color: #8a7968;
+}
+
+
 
