@@ -1,0 +1,13 @@
+div{
+    width: 200px;
+    height: 200px;
+    background: red;
+    animation-duration: 4s;
+    animation-name: div;
+}
+
+@keyframes div{
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,23 @@
+div{
+    width: 200px;
+    height: 200px;
+    background: chartreuse;
+    animation-duration: 3s;
+    animation-name: div;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+@keyframes div{
+    0%{
+        scale: 1;
+    }
+
+    50%{
+        scale: 2;
+    }
+
+    100%{
+        scale: 0.5;
+    }
+}

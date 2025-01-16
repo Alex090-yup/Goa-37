@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-decoration: solid;
+    animation-duration: 3s;
+    animation-name: h1;
+}
+
+@keyframes h1{
+    100%{
+        color: coral;
+    }
+}

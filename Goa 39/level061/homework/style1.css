@@ -1,0 +1,16 @@
+div{
+    width: 200px;
+    height: 200px;
+    background: red;
+    animation-duration: 2s;
+    animation-name: div;
+}
+
+@keyframes div{
+    0%{
+        background: red;
+    }
+    100%{
+        background: blue;
+    }
+}
