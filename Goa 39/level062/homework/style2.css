@@ -1,0 +1,26 @@
+div{
+    width: 200px;
+    height: 200px;
+    animation-name: div;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-left: 200px;
+}
+
+@keyframes div{
+    0%{
+        background-color: lightskyblue;
+    }
+
+    50%{
+       transform: rotate(-360deg);
+       background: rgb(195, 195, 5);
+       transition: 3s;
+    }
+
+    100%{
+       transform: rotate(360deg);
+       background: yellow;
+       transition: 3s;
+    }
+}

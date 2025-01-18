@@ -1,0 +1,25 @@
+div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gray;
+    animation-name: div;
+    animation-duration: 3s;
+    margin-left: 300px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes div{
+    0%{
+        transform: translate(-50px);
+     }
+ 
+     50%{
+         transform: translate(0,100px);
+     }
+ 
+     100%{
+         transform: translate(50px);
+     }
+}
+
