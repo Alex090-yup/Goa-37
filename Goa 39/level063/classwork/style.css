@@ -1,0 +1,48 @@
+body{
+    background: black;
+}
+
+h1{
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+p{
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+u{
+    color: aquamarine;
+}
+
+a{
+    margin-left: 50px;
+    text-decoration: line;
+    color: white;
+}
+img{
+    border-radius: 20px;
+}
+
+hr{
+    margin-top: 100px;
+}
+
+#me{
+    position: absolute;
+    left: 500px;
+    top: 20px;
+}
+
+div{
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+img{
+    box-shadow: 10px 10px 30px 10px red;
+}

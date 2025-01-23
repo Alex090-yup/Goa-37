@@ -1,0 +1,117 @@
+body{
+    background: #03045e;
+}
+
+div{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#circle1{
+    width: 25px;
+    height: 25px;
+    background: #ffd000;
+    border-radius: 50%;
+    animation-name: circle1;
+    animation-duration: 1.4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#circle2{
+    margin-left: 30px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: #f72585;
+    animation-name: circle2;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#circle3{
+    margin-left: 30px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: #4cc9f0;
+    animation-name: circle3;
+    animation-duration: 1.54s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#circle4{
+    margin-left: 30px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: #d100d1;
+    animation-name: circle4;
+    animation-duration: 1.57s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes circle1{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(0.5);
+    }
+
+    100%{
+        transform: scale(1.2);
+        filter: blur(1.5px);
+    }
+}
+
+@keyframes circle2{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(0.5);
+    }
+
+    100%{
+        transform: scale(1.2);
+        filter: blur(1.5px);
+    }
+}
+
+@keyframes circle3{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(0.5);
+    }
+
+    100%{
+        transform: scale(1.2);
+        filter: blur(1.5px);
+    }
+}
+
+@keyframes circle4{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(0.5);
+    }
+
+    100%{
+        transform: scale(1.2);
+        filter: blur(1.5px);
+    }
+}
