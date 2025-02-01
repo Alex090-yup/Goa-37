@@ -1,0 +1,201 @@
+body{
+    background-color: black;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+#sun{
+    margin-top: 300px;
+    margin-left: 300px;
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 50px yellow;
+}
+#circle1{
+    margin-top: 350px;
+    height: 20px;
+    width: 20px;
+    background: #ddb892;
+    border-radius: 50%;
+    animation-name: circle1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#circle2{
+    margin-top: 400px;
+    height: 30px;
+    width: 30px;
+    background: #936639;
+    border-radius: 50%;
+    animation-name: circle2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#circle3{
+    margin-top:450px ;
+    height: 40px;
+    width: 40px;
+    background: #3f37c9;
+    border-radius: 50%;
+    animation-name: circle3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#circle4{
+    margin-top: 500px;
+    height: 30px;
+    width: 30px;
+    background: #d69f7e;
+    border-radius: 50%;
+    animation-name: circle4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#circle5{
+    margin-top: 550px;
+    height: 70px;
+    width: 70px;
+    background: #ffe6a7;
+    border-radius: 50%;
+    animation-name: circle5;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#circle6{
+    margin-top: 600px;
+    height: 60px;
+    width: 60px;
+    background: #a68a64;
+    border-radius: 50%;
+    animation-name: circle6;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#circle7{
+    margin-top: 650px;
+    height: 40px;
+    width: 40px;
+    background: #83c5be;
+    border-radius: 50%;
+    animation-name: circle7;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#circle8{
+    margin-top: 700px;
+    height: 40px;
+    width: 40px;
+    background: #4895ef;
+    border-radius: 50%;
+    animation-name: circle8;
+    animation-duration: 3s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#circle9{
+    margin-top: 750px;
+    height: 20px;
+    width: 20px;
+    background: #a8dadc;
+    border-radius: 50%;
+    animation-name: circle9;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes circle1{
+    0% {
+        transform: rotate(0deg) translateX(138px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(138px) rotate(-360deg);
+    }
+}
+@keyframes circle2{
+    0% {
+            transform: rotate(0deg) translateX(238px) rotate(0deg);
+    }
+    100% {
+            transform: rotate(360deg) translateX(238px) rotate(-360deg);
+    }
+}
+
+@keyframes circle3{
+    0% {
+        transform: rotate(0deg) translateX(338px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(338px) rotate(-360deg);
+    }
+}
+
+@keyframes circle4{
+    0% {
+        transform: rotate(0deg) translateX(438px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(438px) rotate(-360deg);
+    }
+}
+
+@keyframes circle5{
+    0% {
+        transform: rotate(0deg) translateX(538px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(538px) rotate(-360deg);
+    }
+}
+
+@keyframes circle6{
+    0% {
+        transform: rotate(0deg) translateX(638px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(638px) rotate(-360deg);
+    }
+}
+
+@keyframes circle7{
+    0% {
+        transform: rotate(0deg) translateX(738px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(738px) rotate(-360deg);
+    }
+}
+
+@keyframes circle8{
+    0% {
+        transform: rotate(0deg) translateX(838px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(838px) rotate(-360deg);
+    }
+}
+
+@keyframes circle9{
+    0% {
+        transform: rotate(0deg) translateX(800px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(800px) rotate(-360deg);
+    }
+}
+
+
+
+
+
