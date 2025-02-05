@@ -21,7 +21,7 @@ div{
     background: #ddb892;
     border-radius: 50%;
     animation-name: circle1;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -32,7 +32,7 @@ div{
     background: #936639;
     border-radius: 50%;
     animation-name: circle2;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -43,7 +43,7 @@ div{
     background: #3f37c9;
     border-radius: 50%;
     animation-name: circle3;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -54,7 +54,7 @@ div{
     background: #d69f7e;
     border-radius: 50%;
     animation-name: circle4;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -65,7 +65,7 @@ div{
     background: #ffe6a7;
     border-radius: 50%;
     animation-name: circle5;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -76,7 +76,7 @@ div{
     background: #a68a64;
     border-radius: 50%;
     animation-name: circle6;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -87,7 +87,7 @@ div{
     background: #83c5be;
     border-radius: 50%;
     animation-name: circle7;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -98,8 +98,7 @@ div{
     background: #4895ef;
     border-radius: 50%;
     animation-name: circle8;
-    animation-duration: 3s;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -110,7 +109,7 @@ div{
     background: #a8dadc;
     border-radius: 50%;
     animation-name: circle9;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -125,73 +124,73 @@ div{
 }
 @keyframes circle2{
     0% {
-            transform: rotate(0deg) translateX(238px) rotate(0deg);
+            transform: rotate(0deg) translateX(226px) rotate(0deg);
     }
     100% {
-            transform: rotate(360deg) translateX(238px) rotate(-360deg);
+            transform: rotate(360deg) translateX(226px) rotate(-360deg);
     }
 }
 
 @keyframes circle3{
     0% {
-        transform: rotate(0deg) translateX(338px) rotate(0deg);
+        transform: rotate(0deg) translateX(343px) rotate(0deg);
     }
     100% {
-        transform: rotate(360deg) translateX(338px) rotate(-360deg);
+        transform: rotate(360deg) translateX(343px) rotate(-360deg);
     }
 }
 
 @keyframes circle4{
     0% {
-        transform: rotate(0deg) translateX(438px) rotate(0deg);
+        transform: rotate(0deg) translateX(427px) rotate(0deg);
     }
     100% {
-        transform: rotate(360deg) translateX(438px) rotate(-360deg);
+        transform: rotate(360deg) translateX(427px) rotate(-360deg);
     }
 }
 
 @keyframes circle5{
     0% {
-        transform: rotate(0deg) translateX(538px) rotate(0deg);
+        transform: rotate(0deg) translateX(558px) rotate(0deg);
     }
     100% {
-        transform: rotate(360deg) translateX(538px) rotate(-360deg);
+        transform: rotate(360deg) translateX(558px) rotate(-360deg);
     }
 }
 
 @keyframes circle6{
     0% {
-        transform: rotate(0deg) translateX(638px) rotate(0deg);
+        transform: rotate(0deg) translateX(618px) rotate(0deg);
     }
     100% {
-        transform: rotate(360deg) translateX(638px) rotate(-360deg);
+        transform: rotate(360deg) translateX(618px) rotate(-360deg);
     }
 }
 
 @keyframes circle7{
     0% {
-        transform: rotate(0deg) translateX(738px) rotate(0deg);
+        transform: rotate(0deg) translateX(748px) rotate(0deg);
     }
     100% {
-        transform: rotate(360deg) translateX(738px) rotate(-360deg);
+        transform: rotate(360deg) translateX(748px) rotate(-360deg);
     }
 }
 
 @keyframes circle8{
     0% {
-        transform: rotate(0deg) translateX(838px) rotate(0deg);
+        transform: rotate(0deg) translateX(778px) rotate(0deg);
     }
     100% {
-        transform: rotate(360deg) translateX(838px) rotate(-360deg);
+        transform: rotate(360deg) translateX(778px) rotate(-360deg);
     }
 }
 
 @keyframes circle9{
     0% {
-        transform: rotate(0deg) translateX(800px) rotate(0deg);
+        transform: rotate(0deg) translateX(810px) rotate(0deg);
     }
     100% {
-        transform: rotate(360deg) translateX(800px) rotate(-360deg);
+        transform: rotate(360deg) translateX(810px) rotate(-360deg);
     }
 }
 

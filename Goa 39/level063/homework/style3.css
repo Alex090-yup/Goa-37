@@ -3,13 +3,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background: #22577a;
 }
-
-
-
-
 
 #circle1{
     width: 90px;
