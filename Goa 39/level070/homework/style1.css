@@ -1,0 +1,30 @@
+body{
+    background: url('image/background1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+div{
+    gap: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+
+#button1{
+    height: 40px;
+    width: 110px;
+    background: #ccff33;
+    border-radius: 50px;
+    border: none;
+}
+
+#button2{
+    height: 40px;
+    width: 110px;
+    border: none;
+    background: #38b000;
+    border-radius: 50px;
+}

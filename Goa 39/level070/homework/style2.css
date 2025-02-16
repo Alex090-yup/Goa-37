@@ -1,0 +1,24 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url('image/background2.html.jpeg');
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+a{
+    color: azure;
+    text-decoration: none;
+}
+
