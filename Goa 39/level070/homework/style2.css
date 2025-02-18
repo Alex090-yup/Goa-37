@@ -1,7 +1,7 @@
 body{
+    background-image: url('image/background2.html.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    background: url('image/background2.html.jpeg');
 }
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
