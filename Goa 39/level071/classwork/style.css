@@ -1,0 +1,21 @@
+img{
+    margin-left: 70px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px 15px #003049;
+}
+
+button{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100px;
+    height: 30px;
+    margin-left: 70px;
+    margin-top: 10px;
+    background: #4cc9f0;
+    border: none;
+    border-radius: 15px;
+}
+
+body{
+    background: #4361ee;
+}
