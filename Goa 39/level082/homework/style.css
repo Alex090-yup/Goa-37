@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Audiowide&family=Charm:wght@400;700&family=Delius&family=Itim&family=Jost:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Michroma&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+#div1{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(40, 40, 40)
+}
+#div2{
+    margin-top: -200px;
+    margin-left: 250px;
+    width: 500px;
+    height: 500px;
+    background: rgb(245, 245, 245);
+    border-radius: 15px;
+}
+
+h1{
+    font-size: 40px;
+    margin-left: 20px;
+    color: rgb(20, 20, 20);
+    padding: 10px;
+}
+
+#p1{
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 30px;
+    color: rgb(172, 172, 172);
+}
+
+input{
+    margin-left: 20px;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    text-indent: 15px;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    margin-left: -110px;
+    border-radius: 20px;
+    border: none;
+    background: rgb(25, 25, 25);
+    color: rgb(147, 147, 147);
+}
+
+#p2{
+    font-size: 15px;
+    margin-left: 30px;
+    color: rgb(172, 172, 172);
+}
+
+#div3{
+    margin-left: 770px;
+    margin-top: -520px;
+}
+
+#img1{
+    border-radius: 15px;
+}
+
+#div4{
+    width: 700px;
+    height: 120px;
+    box-shadow: 5px 5px 30px rgb(199, 207, 207);
+    margin-top: 50px;
+    margin-left: 350px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+h2{
+    padding: 10px;
+}
+
+hr{
+    color: rgba(174, 180, 186, 0.291);
+}
