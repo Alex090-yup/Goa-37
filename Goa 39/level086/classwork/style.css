@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Audiowide&family=Charm:wght@400;700&family=Delius&family=Itim&family=Jost:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Michroma&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+#div1{
+    margin-top: 200px;
+    text-align: center;
+}
+
+#div2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(23, 41, 64);
+    margin: 0;
+}
+
+h2{
+    font-size: 90px;
+    color: rgb(23, 41, 64);
+    margin: 0;
+}
+
+.btn{
+    border: 2px solid black;
+    color: black;
+    font-size: medium;
+    border-radius: 5px;
+    background: white;
+    margin-top: 30px;
+}
