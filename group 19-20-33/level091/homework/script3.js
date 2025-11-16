@@ -1,5 +1,5 @@
 info_person = prompt("Enter your text: ")
-lst = [1, 2, 3, 4, "h"]
+let lst = [1, 2, 3, 4, "h"]
 
 if (lst.includes(info_person)){
     lst.splice(lst.indexOf(info_person), 1)
