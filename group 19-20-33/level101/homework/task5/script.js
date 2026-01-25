@@ -7,7 +7,7 @@ let lst = [
 ]
 
 for(let i = 0; i<lst.length; i++){
-    for(let value in lst[i]){
-        console.log(lst[i][value])
+    for(let key in lst[i]){
+        console.log(lst[i][key])
     }
 }
