@@ -4,7 +4,6 @@ let random = Math.floor(Math.random() * 100) + 1
 let subst = user_num - random
 
 while (user_num !== random) {
-    subst = user_num - random
     if (subst < 0) {
         subst = subst * -1
     }
