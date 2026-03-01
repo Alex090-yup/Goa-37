@@ -8,7 +8,7 @@ while (user_num !== random) {
     if (subst < 0) {
         subst = subst * -1
     }
-    if (subst < 10) {
+    else if (subst < 10) {
         console.log("You are close.")
     }
     else if (user_num > random) {
