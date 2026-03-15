@@ -6,6 +6,7 @@ let RootofNum = (number) =>{
     :  Math.pow(number,2)
 }
 console.log(RootofNum(25))
+
 // function exspression
 let RootofNum2 = function(number){
     let root = Math.sqrt(number)
