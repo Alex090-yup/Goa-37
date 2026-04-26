@@ -1,5 +1,5 @@
 const user = {
-    _password: "12345",
+    _password: "123",
     get password(){
         let newP = ""
         let i = 0
@@ -18,4 +18,5 @@ const user = {
         }
     }
 }
-console.log(user.changePassword("125345", "abcdef")) 
+console.log(user.changePassword("123", "goga")) 
+console.log(user.password)

@@ -3,7 +3,6 @@ const bankAccount = {
     deposit: function(amount){
         if(amount > 0){
             this._balance += amount
-            return this._balance
         } else {
             return false
         }
@@ -11,7 +10,6 @@ const bankAccount = {
     withdraw: function(amount){
         if(amount <= this._balance){
             this._balance -= amount
-            return this._balance
         } else {
             return false
         }
