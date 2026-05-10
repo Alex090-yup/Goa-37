@@ -1,12 +1,17 @@
-obj = {
-    name: "Alex",
-    age: 15,
-    email: "ygjfv456@gmail.com",
-    lastname: "Hunsen",
-    hobby: "Football"
+let name = "Alex"
+let age = 15
+let email =  "ygjfv456@gmail.com"
+let lastname = "Hunsen"
+let hobby = "Football"
+
+let obj = {
+    name,
+    age,
+    email,
+    lastname,
+    hobby
 }
+let {name:username, age:userage} = obj
 
-let {name, email} = obj
-
-console.log(name)
-console.log(email)
+console.log(username)
+console.log(userage)
