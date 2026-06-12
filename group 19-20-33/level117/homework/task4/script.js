@@ -12,4 +12,5 @@ const obj = {
         }
     }
 }
+obj.Newbalance = 51
 console.log(obj.balance)
