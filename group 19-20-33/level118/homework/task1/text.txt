@@ -1,0 +1,11 @@
+rest - darchenil elementebs(siashi) ert siashi aqcevs.
+const array = ["Ana", 17, 89, 900, 1000, 34, 29, 72, 80, 14]
+let [name, age, ...lst] = array
+console.log(lst)
+shedegi: [89, 900, 1000, 34, 29, 72, 80, 14]
+
+spread -  ert sias akopirebs da amatebs meore siashi.
+const array = ["Ana", 17, 89, 900, 1000, 34, 29, 72, 80, 14]
+const newarray = [...array, "Mari", 12, 60, 34, 50, 14, 43, 2]
+console.log(newarray)
+shedegi: ["Ana", 17, 89, 900, 1000, 34, 29, 72, 80, 14, "Mari", 12, 60, 34, 50, 14, 43, 2]
