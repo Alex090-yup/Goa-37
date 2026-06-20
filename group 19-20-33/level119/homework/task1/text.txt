@@ -1,0 +1,4 @@
+dom - document object model. Warmoadgens html, rogorc documents da inaxavs objektshi.
+getElementById - igebs elements id-is gamoyenebit (mag: .getElementById("first")) id = "first".
+getElementsByTagName - igebs elements tag-is gamoyenebit (mag: .getElementsByTagName("p")).
+getElementsByClassName - igebs elements class-is gamoyenebit (mag: .getElementsByClassName("second")) class = "second".
