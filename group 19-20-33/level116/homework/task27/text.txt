@@ -1,0 +1,2 @@
+do while - jer vwert qmedebas da mere vutitebt salamde gagrdzeldes cikli.
+while loop - jer vutitebt salamde gagrdzeldes cikli da mere vwert qmedebas.
