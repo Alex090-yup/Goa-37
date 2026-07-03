@@ -1,0 +1,7 @@
+querySelector - abrunebs pirvel elements im yvela elementtagan, romelic mogvaqvs documentidan.
+const el = document.querySelector(".p")
+console.log(el) --> <p class="p">A</p> (pirveli elementi class="p"-dan.).
+
+querySelectorAll - abrunebs yvela im elements romelic mogvaqvs documentidan, siis saxit.
+const array = document.querySelectorAll(".h1")
+console.log(array) --> [<h1 class="h1">, <h1 class="h1">, <h1 class="h1">, <h1 class="h1">] (yvela elementi class="h1"-dan.).

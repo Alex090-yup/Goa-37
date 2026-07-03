@@ -1,0 +1,5 @@
+setAttributes - amatebs atributis axal mnishvnelobas.
+img.setAttribute("src", "dog.jpg") --> daamata "dog.jpg".
+
+getAttributes - abrunebs atributis mnishvnelobas.
+img.getAttribute("src") --> daabruna "dog.jpg".
