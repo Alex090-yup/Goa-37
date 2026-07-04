@@ -1,0 +1,3 @@
+InnerText - saitze gamoachens imas, rasac unda xedavdes momxmarebeli.
+innerHtml - amatebs HTMl documentshi elementebs an elementshi amatebs elementebs.
+textContent - saitze gamoachens elementshi arsebuli mtlian text-s.
