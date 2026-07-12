@@ -2,7 +2,7 @@ let div = document.createElement("div")
 let img = document.createElement("img")
 let h2 = document.createElement("h2")
 let btn = document.createElement("button")
-let box = document.getElementById("box")
+let box = document.body
 
 img.setAttribute("src", "img.jpg")
 div.className = "card"
