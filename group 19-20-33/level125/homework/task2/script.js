@@ -6,57 +6,49 @@ let btn5 = document.getElementById("btn5")
 
 
 document.onkeydown = (event) => {
-    if(event.key === btn1.textContent){
-        btn1.style.position = "absolute"
-        btn1.style.left = 50 + "px"
-        btn1.style.top = 50 + "px"
+    let eventUpper = event.key.toUpperCase()
+    if(eventUpper === btn1.textContent){
+        btn1.style.transition = "3s"
+        btn1.style.background = "blue"
     }
-    else if(event.key === btn2.textContent){
-        btn2.style.position = "absolute"
-        btn2.style.left= 80 + "px"
-        btn2.style.top = 50 + "px"
+    else if(eventUpper === btn2.textContent){
+        btn2.style.transition = "3s"
+        btn2.style.background = "red"
     }
-    else if(event.key === btn3.textContent){
-        btn3.style.position = "absolute"
-        btn3.style.left= 110 + "px"
-        btn3.style.top = 50 + "px"
+    else if(eventUpper === btn3.textContent){
+        btn3.style.transition = "3s"
+        btn3.style.background = "green"
     }
-    else if(event.key === btn4.textContent){
-        btn4.style.position = "absolute"
-        btn4.style.left= 140 + "px"
-        btn4.style.top = 50 + "px"
+    else if(eventUpper === btn4.textContent){
+        btn4.style.transition = "3s"
+        btn4.style.background = "yellow"
     }
-    else if(event.key === btn5.textContent){
-        btn5.style.position = "absolute"
-        btn5.style.left= 170 + "px"
-        btn5.style.top = 50 + "px"
+    else if(eventUpper === btn5.textContent){
+        btn5.style.transition = "3s"
+        btn5.style.background = "black"
     }
 }
 
 document.onkeyup = (event) => {
-    if(event.key === btn1.textContent){
-        btn1.style.position = ""
-        btn1.style.left = ""
-        btn1.style.top = ""
+    let eventUpper = event.key.toUpperCase()
+    if(eventUpper === btn1.textContent){
+        btn1.style.transition = "none"
+        btn1.style.background = "none"
     }
-    else if(event.key === btn2.textContent){
-        btn2.style.position = ""
-        btn2.style.left = ""
-        btn2.style.top = ""
+    else if(eventUpper === btn2.textContent){
+        btn2.style.transition = "none"
+        btn2.style.background = "none"
     }
-    else if(event.key === btn3.textContent){
-        btn3.style.position = ""
-        btn3.style.left = ""
-        btn3.style.top = ""
+    else if(eventUpper === btn3.textContent){
+        btn3.style.transition = "none"
+        btn3.style.background = "none"
     }
-    else if(event.key === btn4.textContent){
-        btn4.style.position = ""
-        btn4.style.left = ""
-        btn4.style.top = ""
+    else if(eventUpper === btn4.textContent){
+        btn4.style.transition = "none"
+        btn4.style.background = "none"
     }
-    else if(event.key === btn5.textContent){
-        btn5.style.position = ""
-        btn5.style.left = ""
-        btn5.style.top = ""
+    else if(eventUpper === btn5.textContent){
+        btn5.style.transition = "none"
+        btn5.style.background = "none"
     }
 }
