@@ -1,0 +1,58 @@
+#div1{
+    display: grid;
+    place-items: center;
+}
+
+#div2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#inp1{
+    width: 400px;
+    height: 30px;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 2px;
+}
+
+button{
+    background: orange;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+#div4{
+    display: flex;
+    margin: 10px;
+    width: 500px;
+    height: 60px;
+    border-radius: 5px;
+    background: rgb(197, 196, 196);
+}
+
+#p{
+    padding: 5px 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#btn{
+    width: 70px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: 20px;
+    background: red;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+#div3{
+    margin-top: 20px;
+}
+
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
