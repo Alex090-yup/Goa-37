@@ -1,0 +1,19 @@
+div{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#img{
+    width: 400px;
+}
+
+#right-arrow{
+    width: 100px;
+}
+
+#left-arrow{
+    width: 100px;
+}

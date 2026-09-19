@@ -1,13 +1,11 @@
 let div = document.getElementById("img-text")
 let btnTime = document.getElementById("time")
-let btnHeartRate = document.getElementById("heart-rate")
-let heartRateImg = document.getElementById("heartRateImg")
 let Imgbox = document.getElementById("img-box")
 let imgProduct = document.getElementById("product-img")
-
-if(Imgbox.contains(imgProduct)){
-    Imgbox.removeChild(heartRateImg)
-}
+let divBlack = document.getElementById("black")
+let divRed = document.getElementById("red")
+let divBlue = document.getElementById("blue")
+let divPurple = document.getElementById("purple")
 
 btnTime.addEventListener("click", () => {
     setInterval(() =>{
@@ -28,13 +26,19 @@ btnTime.addEventListener("click", () => {
         
         div.textContent = `${hours}:${minutes}:${seconds}`
     })
-    Imgbox.append(imgProduct)
-    Imgbox.append(div)
-    Imgbox.removeChild(heartRateImg)
 })
 
-btnHeartRate.addEventListener("click", () => {
-    Imgbox.removeChild(imgProduct)
-    Imgbox.removeChild(div)
-    Imgbox.append(heartRateImg)
+divBlack.addEventListener("click", ()=>{
+    imgProduct.src = "black.png"
+})
+divRed.addEventListener("click", ()=>{
+    imgProduct.src = "red.png"
+})
+
+divBlue.addEventListener("click", ()=>{
+    imgProduct.src = "blue.png"
+})
+
+divPurple.addEventListener("click", ()=>{
+    imgProduct.src = "purple.png"
 })
