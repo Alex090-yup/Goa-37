@@ -156,9 +156,9 @@ Submitbtn.addEventListener("click", (event) => {
     }
 
     if(check3){
-    errorPassword.textContent = ""
-    errorPassword.style.color = ""
-    errorPassword.style.fontSize = ""
+        errorPassword.textContent = ""
+        errorPassword.style.color = ""
+        errorPassword.style.fontSize = ""
     }
 
     if(inputconfirmPassword.value.trim() === ""){
