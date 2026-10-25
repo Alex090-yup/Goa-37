@@ -86,7 +86,7 @@ function showProducts(products){
             <div>
                 <h3>${productName}</h3>
                 <p>Price: ${productPrice}$</p>
-                <img src="${productImg}" width="150">
+                <img src="${productImg}" alt="photo" width="150">
                 <p>Category: ${productCategory}</p>
             </div>`
     })
